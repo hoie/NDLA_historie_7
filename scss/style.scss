@@ -82,9 +82,6 @@ button {
 	bottom: 0;
 	height: 100vh;
 	width: 100vw;
-	// background: #222;
-	// background: rgba(0,0,0,0.co);
-	// background: rgba(115,106,0,0.9);
 	background: $tint-color;
 	display: block;
 	opacity: 0;
@@ -106,88 +103,91 @@ button {
 
 .n1 {
 	left: $col-1;
-	top: 11%;
-	height: 36%;
+	top: 10%;
+	height: 52%;
 	
 	.l1 {
-		top: 20%;
-	}
-	.l2 {
-		top: 80%;		    
+		top: 80%;
 	}
 }
 
 .n2 {
 	left: $col-1;
-	top: 52%;
-	height: 20%;
+	top: 70%;
 	
-	.l3 {
-		top: 18%;
-	}
-	.l4 {
-		top: 80%;		    
+	.l2 {
+		width: 47%;
 	}
 }
 
 .n3 {
-	left: $col-1;
-	top: 77%;
+	left: $col-2;
+	top: 10%;
+	
+	.l3 {
+		top: 105%;
+		height: 27%;
+	}
 }
 
 .n4 {
 	left: $col-2;
-	top: 11%;
+	top: 40%;
 	
-	.l7 {
-		width: 232%;
+	.l4 {
+		top: 105%;
+		height: 27%;
+	}
+	.l5 {
+		top: 15%;
+		width: 47%;
 	}
 	.l6 {
-		
+		top: 85%;
 	}
 }
 
 .n5 {
 	left: $col-2;
-	top: 33%;
+	top: 70%;
+
 	.l7 {
-		left: 85%;
+		top: 15%;
+		width: 47%;
 	}
 }
 
 .n6 {
-	left: $col-2;
-	top: 52%;
-	height: 39%;
+	left: $col-3;
+	top: 25%;
 	
-	.l9 {
-		top: 20%;
+	.l8 {
+		top: 85%
 	}
 
 }
 .n7 {
 	left: $col-3;
-	top: 33%;
-	height: 34%;
+	top: 55%;
 	
-	.l10 {
+	.l9 {
 		top: 20%;
 	}
 }
 .n8 {
-	left: $col-3;
-	top: 77%;
+	left: $col-4;
+	top: 40%;
+	
+	.l10 {
+		height: 37%;
 	}
 
-	.l11 {
-		top: -61% ;
-		height: 67%;
-	}
+}
+
 
 .n9 {
 	left: $col-4;
-	top: 11%;
-	height: 36%;
+	top: 70%;
 }
 
 

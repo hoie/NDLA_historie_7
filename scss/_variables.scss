@@ -26,7 +26,7 @@ $small-screen: 1025px;
 $gutter-proportion: 0.6;
 $col-width: 100% / 4;  // 25%
 $node-width: $col-width * $gutter-proportion; // 25% * 0.6 = 15%
-$node-height: 14%;
+$node-height: 22%;
 $gutter-width: $col-width - $node-width;  // 25% - 15% = 10%
 
 $col-1: $gutter-width / 2;
