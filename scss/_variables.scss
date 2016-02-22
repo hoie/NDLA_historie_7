@@ -24,9 +24,8 @@ $small-screen: 1025px;
 
 // $col-width: $node-width + $gutter-width;
 $gutter-proportion: 0.6;
-$col-width: 100% / 4;  // 25%
+$col-width: 100% / 3;  // 25%
 $node-width: $col-width * $gutter-proportion; // 25% * 0.6 = 15%
-$node-height: 20%;
 $gutter-width: $col-width - $node-width;  // 25% - 15% = 10%
 
 $col-1: $gutter-width / 2;
@@ -34,3 +33,9 @@ $col-2: $col-1 + $col-width;
 $col-3: $col-2 + $col-width;
 $col-4: $col-3 + $col-width;
 $col-5: $col-4 + $col-width;
+
+$col-height: 88% / 5;
+$gutter-v-proportion: 0.8;
+$node-height: $col-height * $gutter-v-proportion;
+
+

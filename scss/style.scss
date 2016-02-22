@@ -104,91 +104,64 @@ button {
 
 .n1 {
 	left: $col-1;
-	top: 11%;
-	height: 50%;
+	top: 10%;
 	
 	.l1 {
-		top: 80%;
+		width: 230%;
 	}
 }
 
 .n2 {
 	left: $col-1;
-	top: 71%;
+	top: $col-height + 10%;
 	
 	.l2 {
-		width: 47%;
 	}
 }
 
 .n3 {
-	left: $col-2;
-	top: 11%;
+	left: $col-1;
+	top: $col-height * 2 + 10%;
+	height: 11%;
 	
 	.l3 {
-		top: 105%;
-		height: 39%;
+		width: 230%;
+	}
+	.l4 {
+		height: 55%;
 	}
 }
 
 .n4 {
-	left: $col-2;
-	top: 41%;
+	left: $col-1;
+	top: $col-height * 3 + 10%;
 	
-	.l4 {
-		top: 105%;
-		height: 39%;
-	}
 	.l5 {
-		top: 13%;
-		width: 47%;
-	}
-	.l6 {
-		top: 87%;
+		width: 230%;
 	}
 }
 
 .n5 {
-	left: $col-2;
-	top: 71%;
+	left: $col-1;
+	top: $col-height * 4 + 10%;
 
-	.l7 {
-		top: 13%;
-		width: 47%;
+	.l6 {
+		width: 230%;
 	}
 }
 
 .n6 {
-	left: $col-3;
-	top: 26%;
+	left: $col-2;
+	top: $col-height + 10%;
 	
-	.l8 {
-		top: 87%
+	.l7 {
 	}
 
 }
 .n7 {
 	left: $col-3;
-	top: 56%;
-	
-	.l9 {
-		top: 13%;
-	}
-}
-.n8 {
-	left: $col-4;
-	top: 41%;
-	
-	.l10 {
-		height: 49%;
-	}
-
-}
-
-
-.n9 {
-	left: $col-4;
-	top: 71%;
+	top: 10%;
+	height: 82%;
 }
 
 

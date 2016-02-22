@@ -13,7 +13,7 @@
 		<link href="css/ie.css" rel="stylesheet" type="text/css">
 	<![endif]-->
 
-<title>1814-1905 - Tankekart</title>
+<title>Den første industrielle revolusjon - Tankekart</title>
 
 <script>
 	var isShowing = false;
@@ -118,14 +118,14 @@
 <!-- SIDETITTEL -->
 
 <header id="header">
-	<h1>1814&mdash;1905</h1>
+	<h1>Den første industrielle revolusjon</h1>
 </header>
 
 <!-- BEHOLDER FOR TANKEKART -->
 
 <section id="container" class="container">
 
-<!-- NODE 1: Grunnloven 1814 -->
+<!-- NODE 1: Forlagssystemet -->
 
 	<div class="n1 node nodePlaceholder">
 
@@ -144,18 +144,18 @@
 
 	<div id='n1' class='node n1' onclick="showNodeNote('n1');" style="background-image: url(img/04_01_eidsvoll_riksraad_1814_0.jpg);">
 		<button class="edit" onclick="showNodeNote('n1');"><i class="fa fa-pencil"></i></button>
-		<h2 id='n1title'>Grunnloven 1814</h2>
-		<h3 id='n1subtitle'>Grunnloven 1814</h3>
+		<h2 id='n1title'>Forlagssystemet</h2>
+		<h3 id='n1subtitle'>Forlagssystemet</h3>
 		<div id='n1url' class="node-url">url</div>
 		<textarea placeholder="Skriv ditt notat her..." id='n1n'></textarea>
 		<button class="close" onclick="hideNodeNote('n1');"><i class="fa fa-times"></i></button>
 	</div>
 
-<!-- NODE 2: Nasjonalromantikken -->
+<!-- NODE 2: Kull og jern -->
 
 	<div class="n2 node nodePlaceholder">
 
-		<div id='l2' class='link l2 link-h right double'>
+		<div id='l2' class='link l2 link-h right'>
 			<div class="link-note">
 				<h2 id='l2title'></h2>
 				<div id='l2url' class="node-url">url</div>
@@ -170,19 +170,19 @@
 
 	<div id='n2' class='node n2' onclick="showNodeNote('n2');" style="background-image: url(img/04_02_brudeferden.jpg);">
 		<button class="edit" onclick="showNodeNote('n2');"><i class="fa fa-pencil"></i></button>
-		<h2 id='n2title'>Nasjonalromantikken</h2>
-		<h3 id='n2subtitle'>Nasjonalromantikken</h3>
+		<h2 id='n2title'>Kull og jern</h2>
+		<h3 id='n2subtitle'>Kull og jern</h3>
 		<div id='n2url'>url</div>
 		<textarea placeholder="Skriv ditt notat her..." id='n2n'></textarea>
 		<button class="close" onclick="hideNodeNote('n2');"><i class="fa fa-times"></i></button>
 	</div>
 
 
-<!-- NODE 3: Formannskapsloven -->
+<!-- NODE 3: Effektivisering i jordbruket -->
 
 	<div class="n3 node nodePlaceholder">
 
-		<div id='l3' class='link l3 link-v down double'>
+		<div id='l3' class='link l3 link-h right'>
 			<div class="link-note">
 				<h2 id='l3title'></h2>
 				<h3 id='l3subtitle'></h3>
@@ -192,25 +192,7 @@
 				<button class="close" onclick="hideLinkNote('l3');"><i class="fa fa-times"></i></button>
 			</div>
 		</div>
-
-	</div>
-
-	<div id='n3' class='node n3' onclick="showNodeNote('n3');" style="background-image: url(img/04_03_Riksvapenet_0.jpg);">
-		<button class="edit"  onclick="showNodeNote('n3');"><i class="fa fa-pencil"></i></button>
-		<h2 id='n3title'>Formannskapsloven</h2>
-		<h3 id='n3subtitle'>Formannskapsloven</h3>
-		<div id='n3url'>url</div>
-		<textarea placeholder="Skriv ditt notat her..." id='n3n'></textarea>
-		<button class="close"  onclick="hideNodeNote('n3');"><i class="fa fa-times"></i></button>
-		<button class="close" onclick="hideNodeNote('n3');"><i class="fa fa-times"></i></button>
- 	</div>
-
-
-<!-- NODE 4: Demokratisering -->
-	
-	<div class="n4 node nodePlaceholder">
-
-		<div id='l4' class='link l4 link-v down double'>
+		<div id='l4' class='link l4 link-v down'>
 			<div class="link-note">
 				<h2 id='l4title'></h2>
 				<h3 id='l4subtitle'></h3>
@@ -219,8 +201,26 @@
 				<textarea placeholder="Skriv ditt notat her..." id='l4n'></textarea>
 				<button class="close" onclick="hideLinkNote('l4');"><i class="fa fa-times"></i></button>
 			</div>
-		</div>		
-		<div id='l5' class='link l5 link-h right double'>
+		</div>
+
+	</div>
+
+	<div id='n3' class='node n3' onclick="showNodeNote('n3');" style="background-image: url(img/04_03_Riksvapenet_0.jpg);">
+		<button class="edit"  onclick="showNodeNote('n3');"><i class="fa fa-pencil"></i></button>
+		<h2 id='n3title'>Effektivisering i jordbruket</h2>
+		<h3 id='n3subtitle'>Effektivisering i jordbruket</h3>
+		<div id='n3url'>url</div>
+		<textarea placeholder="Skriv ditt notat her..." id='n3n'></textarea>
+		<button class="close"  onclick="hideNodeNote('n3');"><i class="fa fa-times"></i></button>
+		<button class="close" onclick="hideNodeNote('n3');"><i class="fa fa-times"></i></button>
+ 	</div>
+
+
+<!-- NODE 4: Befolkningsvekst -->
+	
+	<div class="n4 node nodePlaceholder">
+
+		<div id='l5' class='link l5 link-h right'>
 			<div class="link-note">	
 				<h2 id='l5title'></h2>
 				<h3 id='l5subtitle'></h3>
@@ -230,6 +230,23 @@
 				<button class="close" onclick="hideLinkNote('l5');"><i class="fa fa-times"></i></button>
 			</div>
 		</div>
+
+	</div>
+
+	<div id='n4' class='node n4' onclick="showNodeNote('n4');" style="background-image: url(img/04_04_valgurne.jpg);">
+		<button class="edit" onclick="showNodeNote('n4');"><i class="fa fa-pencil"></i></button>
+		<h2 id='n4title'>Befolkningsvekst</h2>
+		<h3 id='n4subtitle'>Befolkningsvekst</h3>
+		<div id='n4url' class="nodurl">url</div>
+		<textarea placeholder="Skriv ditt notat her..." id='n4n'></textarea>
+		<button class="close" onclick="hideNodeNote('n4');"><i class="fa fa-times"></i></button>
+	</div>
+
+
+<!-- NODE 5: Merkantilisme og kolonialisme -->
+	
+	<div class="n5 node nodePlaceholder">
+
 		<div id='l6' class='link l6 link-h right'>
 			<div class="link-note">
 				<h2 id='l6title'></h2>
@@ -243,21 +260,20 @@
 
 	</div>
 
-	<div id='n4' class='node n4' onclick="showNodeNote('n4');" style="background-image: url(img/04_04_valgurne.jpg);">
-		<button class="edit" onclick="showNodeNote('n4');"><i class="fa fa-pencil"></i></button>
-		<h2 id='n4title'>Demokratisering</h2>
-		<h3 id='n4subtitle'>Demokratisering</h3>
-		<div id='n4url' class="nodurl">url</div>
-		<textarea placeholder="Skriv ditt notat her..." id='n4n'></textarea>
-		<button class="close" onclick="hideNodeNote('n4');"><i class="fa fa-times"></i></button>
+	<div id='n5' class='node n5' onclick="showNodeNote('n5');" style="background-image: url(img/04_05_022sAXqs72P5_copy.jpg);">
+		<button class="edit" onclick="showNodeNote('n5');"><i class="fa fa-pencil"></i></button>
+		<h2 id='n5title'>Merkantilisme og kolonialisme</h2>
+		<h3 id='n5subtitle'>Merkantilisme og kolonialisme</h3>
+		<div id='n5url'>url</div>
+		<textarea placeholder="Skriv ditt notat her..." id='n5n'></textarea>
+		<button class="close" onclick="hideNodeNote('n5');"><i class="fa fa-times"></i></button>
 	</div>
 
-
-<!-- NODE 5: Nasjonalisme og tro på selvstendighet -->
+<!-- NODE 6: Teknologiske nyvinninger  -->
 	
-	<div class="n5 node nodePlaceholder">
-
-		<div id='l7' class='link l7 link-h right double'>
+	<div class="n6 node nodePlaceholder">
+	
+		<div id='l7' class='link l7 link-h right'>
 			<div class="link-note">
 				<h2 id='l7title'></h2>
 				<h3 id='l7subtitle'></h3>
@@ -270,105 +286,28 @@
 
 	</div>
 
-	<div id='n5' class='node n5' onclick="showNodeNote('n5');" style="background-image: url(img/04_05_022sAXqs72P5_copy.jpg);">
-		<button class="edit" onclick="showNodeNote('n5');"><i class="fa fa-pencil"></i></button>
-		<h2 id='n5title'>Nasjonalisme og tro på selvstendighet</h2>
-		<h3 id='n5subtitle'>Nasjonalisme og tro på selvstendighet</h3>
-		<div id='n5url'>url</div>
-		<textarea placeholder="Skriv ditt notat her..." id='n5n'></textarea>
-		<button class="close" onclick="hideNodeNote('n5');"><i class="fa fa-times"></i></button>
-	</div>
-
-<!-- NODE 6: Parlamentarisme  -->
-	
-	<div class="n6 node nodePlaceholder">
-	
-		<div id='l8' class='link l8 link-h right'>
-			<div class="link-note">
-				<h2 id='l8title'></h2>
-				<h3 id='l8subtitle'></h3>
-				<div id='l8url' class="node-url">url</div>
-				<button class="edit" onclick="showLinkNote('l8');"><i class="fa fa-pencil"></i></button>
-				<textarea placeholder="Skriv ditt notat her..." id='l8n'></textarea>
-				<button class="close" onclick="hideLinkNote('l8');"><i class="fa fa-times"></i></button>
-			</div>
-		</div>
-
-	</div>
-
 	<div id='n6' class='node n6' onclick="showNodeNote('n6');" style="background-image: url(img/04_06_spec5cb9.jpg);">
 		<button class="edit" onclick="showNodeNote('n6');"><i class="fa fa-pencil"></i></button>		
-		<h2 id='n6title'>Parlamentarisme</h2>
-		<h3 id='n6subtitle'>Parlamentarisme</h3>
+		<h2 id='n6title'>Teknologiske nyvinninger</h2>
+		<h3 id='n6subtitle'>Teknologiske nyvinninger</h3>
 		<div id='n6url'>url</div>
 		<textarea placeholder="Skriv ditt notat her..." id='n6n'></textarea>
 		<button class="close" onclick="hideNodeNote('n6');"><i class="fa fa-times"></i></button>
 	</div>
 
-<!-- NODE 7: Industrialisering -->
+<!-- NODE 7: Den første industrielle revolusjon -->
 
-	<div class="n7 node nodePlaceholder">
-
-		<div id='l9' class='link l9 link-h right'>
-			<div class="link-note">
-			<h2 id='l9title'></h2>
-			<h3 id='l9subtitle'></h3>
-			<div id='l9url' class="node-url">url</div>
-			<button class="edit" onclick="showLinkNote('l9');"><i class="fa fa-pencil"></i></button>
-			<textarea placeholder="Skriv ditt notat her..." id='l9n'></textarea>
-			<button class="close" onclick="hideLinkNote('l9');"><i class="fa fa-times"></i></button>
-			</div>
-		</div>
-		
-	</div>
+	<div class="n7 node nodePlaceholder"></div>
 
 	<div id='n7' class='node n7' onclick="showNodeNote('n7');" style="background-image: url(img/04_07_Wilhelm_Peters_Fra_Hjula_Veveri.jpg);">
 		<button class="edit"  onclick="showNodeNote('n7');"><i class="fa fa-pencil"></i></button>
-		<h2 id='n7title'>Industrialisering</h2>
-		<h3 id='n7subtitle'>Industrialisering</h3>
+		<h2 id='n7title'>Den første industrielle revolusjon</h2>
+		<h3 id='n7subtitle'>Den første industrielle revolusjon</h3>
 		<div id='n7url'>url</div>
 		<textarea placeholder="Skriv ditt notat her..." id='n7n'></textarea>
 		<button class="close" onclick="hideNodeNote('n7');"><i class="fa fa-times"></i></button>
 	</div>
 
-<!-- NODE 8: Konsulatsaken -->
-	
-	<div class="n8 node nodePlaceholder">
-		
-		<div id='l10' class='link l10 link-v down'>
-			<div class="link-note">
-				<h2 id='l10title'></h2>
-				<h3 id='l10subtitle'></h3>
-				<div id='l10url' class="node-url">url</div>
-				<button class="edit" onclick="showLinkNote('l10');"><i class="fa fa-pencil"></i></button>
-				<textarea placeholder="Skriv ditt notat her..." id='l10n'></textarea>
-				<button class="close" onclick="hideLinkNote('l10');"><i class="fa fa-times"></i></button>
-			</div>
-		</div>
-
-	</div>
-
-	<div id='n8' class='node n8' onclick="showNodeNote('n8');"  style="background-image: url(img/04_08_Eget_Konsulatvæsen1904_ny1.jpg);">
-		<button class="edit" onclick="showNodeNote('n8');"><i class="fa fa-pencil"></i></button>	
-		<h2 id='n8title'>Konsulatsaken</h2>
-		<h3 id='n8subtitle'>Konsulatsaken</h3>
-		<div id='n8url'>url</div>
-		<textarea placeholder="Skriv ditt notat her..." id='n8n'></textarea>
-		<button class="close" onclick="hideNodeNote('n8');"><i class="fa fa-times"></i></button>
-	</div>
-
-<!-- NODE 9: Unionsoppløsningen 1905 -->
-	
-	<div class="n9 node nodePlaceholder"></div>
-
-	<div id='n9' class='node n9' onclick="showNodeNote('n9');"  style="background-image: url(img/04_09_Statsminister_Christian_Michelsen.jpg);">
-		<button class="edit" onclick="showNodeNote('n9');"><i class="fa fa-pencil"></i></button>	
-		<h2 id='n9title'>Unionsoppløsningen 1905</h2>
-		<h3 id='n9subtitle'>Unionsoppløsningen 1905</h3>
-		<div id='n9url'>url</div>
-		<textarea placeholder="Skriv ditt notat her..." id='n9n'></textarea>
-		<button class="close" onclick="hideNodeNote('n9');"><i class="fa fa-times"></i></button>
-	</div>
 
 
 <!-- SLUTT PÅ REDIGERBART INNHOLD *********************************************************************************************** -->
@@ -399,26 +338,21 @@
 
 <script src="NDLAHistoryMindMap.js"></script>
 <script>
-	NDLAHistoryMindMap.init("1814-1905","1814-1905");
-	var n1 = NDLAHistoryMindMap.createNode("Grunnloven 1814", "Foto:  / NTB Scanpix", "", "n1");
-	var n2 = NDLAHistoryMindMap.createNode("Nasjonalromantikken", "Foto:  / NTB Scanpix","","n2");
-	var n3 = NDLAHistoryMindMap.createNode("Formannskapsloven", "Foto:  / NTB Scanpix","","n3");
-	var n4 = NDLAHistoryMindMap.createNode("Demokratisering", "Foto: NTB Scanpix","","n4");
-	var n5 = NDLAHistoryMindMap.createNode("Nasjonalisme og tro på selvstendighet", "Foto:  / NTB Scanpix","","n5");
-	var n6 = NDLAHistoryMindMap.createNode("Parlamentarisme", "Foto:  / NTB Scanpix","","n6");
-	var n7 = NDLAHistoryMindMap.createNode("Industrialisering", "Foto:  / NTB Scanpix","","n7");
-	var n8 = NDLAHistoryMindMap.createNode("Konsulatsaken", "Foto:  / NTB Scanpix","","n8");
-	var n9 = NDLAHistoryMindMap.createNode("Unionsoppløsningen 1905", "Foto: / NTB Scanpix","","n9");
-	var l1 = NDLAHistoryMindMap.createLink(n1,n4, false, "", "", "l1");
-	var l2 = NDLAHistoryMindMap.createLink(n2,n5, true, "", "", "l2");
-	var l3 = NDLAHistoryMindMap.createLink(n3,n4, true, "", "", "l3");
-	var l4 = NDLAHistoryMindMap.createLink(n4,n5, true, "", "", "l4");
-	var l5 = NDLAHistoryMindMap.createLink(n4,n6, true, "", "", "l5");
-	var l6 = NDLAHistoryMindMap.createLink(n4,n6, false, "", "", "l6");
-	var l7 = NDLAHistoryMindMap.createLink(n5,n7, true, "", "", "l7");
-	var l8 = NDLAHistoryMindMap.createLink(n6,n8, false, "", "", "l8");
-	var l9 = NDLAHistoryMindMap.createLink(n7,n8, false, "", "", "l9");
-	var l10 = NDLAHistoryMindMap.createLink(n8,n9, false, "", "", "l10");
+	NDLAHistoryMindMap.init("IndRev1","Den første industrielle revolusjon");
+	var n1 = NDLAHistoryMindMap.createNode("Forlagssystemet", "Foto:  / NTB Scanpix", "", "n1");
+	var n2 = NDLAHistoryMindMap.createNode("Kull og jern", "Foto:  / NTB Scanpix","","n2");
+	var n3 = NDLAHistoryMindMap.createNode("Effektivisering i jordbruket", "Foto:  / NTB Scanpix","","n3");
+	var n4 = NDLAHistoryMindMap.createNode("Befolkningsvekst", "Foto: NTB Scanpix","","n4");
+	var n5 = NDLAHistoryMindMap.createNode("Merkantilisme og kolonialisme", "Foto:  / NTB Scanpix","","n5");
+	var n6 = NDLAHistoryMindMap.createNode("Teknologiske nyvinninger", "Foto:  / NTB Scanpix","","n6");
+	var n7 = NDLAHistoryMindMap.createNode("Den første industrielle revolusjon", "Foto:  / NTB Scanpix","","n7");
+	var l1 = NDLAHistoryMindMap.createLink(n1,n7, false, "", "", "l1");
+	var l2 = NDLAHistoryMindMap.createLink(n2,n6, false, "", "", "l2");
+	var l3 = NDLAHistoryMindMap.createLink(n3,n7, false, "", "", "l3");
+	var l4 = NDLAHistoryMindMap.createLink(n3,n4, false, "", "", "l4");
+	var l5 = NDLAHistoryMindMap.createLink(n4,n7, false, "", "", "l5");
+	var l6 = NDLAHistoryMindMap.createLink(n5,n7, false, "", "", "l6");
+	var l7 = NDLAHistoryMindMap.createLink(n6,n7, false, "", "", "l7");
 	NDLAHistoryMindMap.updateNodes();
 	NDLAHistoryMindMap.updateLinks();
 	</script>
