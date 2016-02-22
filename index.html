@@ -13,7 +13,7 @@
 		<link href="css/ie.css" rel="stylesheet" type="text/css">
 	<![endif]-->
 
-<title>Den første industrielle revolusjon - Tankekart</title>
+<title>Den andre industrielle revolusjon - Tankekart</title>
 
 <script>
 	var isShowing = false;
@@ -118,14 +118,14 @@
 <!-- SIDETITTEL -->
 
 <header id="header">
-	<h1>Den første industrielle revolusjon</h1>
+	<h1>Den andre industrielle revolusjon</h1>
 </header>
 
 <!-- BEHOLDER FOR TANKEKART -->
 
 <section id="container" class="container">
 
-<!-- NODE 1: Forlagssystemet -->
+<!-- NODE 1: Befolkningsutvikling og utvandring -->
 
 	<div class="n1 node nodePlaceholder">
 
@@ -144,14 +144,14 @@
 
 	<div id='n1' class='node n1' onclick="showNodeNote('n1');" style="background-image: url(img/04_01_eidsvoll_riksraad_1814_0.jpg);">
 		<button class="edit" onclick="showNodeNote('n1');"><i class="fa fa-pencil"></i></button>
-		<h2 id='n1title'>Forlagssystemet</h2>
-		<h3 id='n1subtitle'>Forlagssystemet</h3>
+		<h2 id='n1title'>Befolkningsutvikling og utvandring</h2>
+		<h3 id='n1subtitle'>Befolkningsutvikling og utvandring</h3>
 		<div id='n1url' class="node-url">url</div>
 		<textarea placeholder="Skriv ditt notat her..." id='n1n'></textarea>
 		<button class="close" onclick="hideNodeNote('n1');"><i class="fa fa-times"></i></button>
 	</div>
 
-<!-- NODE 2: Kull og jern -->
+<!-- NODE 2: Nye energikilder -->
 
 	<div class="n2 node nodePlaceholder">
 
@@ -170,15 +170,15 @@
 
 	<div id='n2' class='node n2' onclick="showNodeNote('n2');" style="background-image: url(img/04_02_brudeferden.jpg);">
 		<button class="edit" onclick="showNodeNote('n2');"><i class="fa fa-pencil"></i></button>
-		<h2 id='n2title'>Kull og jern</h2>
-		<h3 id='n2subtitle'>Kull og jern</h3>
+		<h2 id='n2title'>Nye energikilder</h2>
+		<h3 id='n2subtitle'>Nye energikilder</h3>
 		<div id='n2url'>url</div>
 		<textarea placeholder="Skriv ditt notat her..." id='n2n'></textarea>
 		<button class="close" onclick="hideNodeNote('n2');"><i class="fa fa-times"></i></button>
 	</div>
 
 
-<!-- NODE 3: Effektivisering i jordbruket -->
+<!-- NODE 3: Stål -->
 
 	<div class="n3 node nodePlaceholder">
 
@@ -192,7 +192,25 @@
 				<button class="close" onclick="hideLinkNote('l3');"><i class="fa fa-times"></i></button>
 			</div>
 		</div>
-		<div id='l4' class='link l4 link-v down'>
+
+	</div>
+
+	<div id='n3' class='node n3' onclick="showNodeNote('n3');" style="background-image: url(img/04_03_Riksvapenet_0.jpg);">
+		<button class="edit"  onclick="showNodeNote('n3');"><i class="fa fa-pencil"></i></button>
+		<h2 id='n3title'>Stål</h2>
+		<h3 id='n3subtitle'>Stål</h3>
+		<div id='n3url'>url</div>
+		<textarea placeholder="Skriv ditt notat her..." id='n3n'></textarea>
+		<button class="close"  onclick="hideNodeNote('n3');"><i class="fa fa-times"></i></button>
+		<button class="close" onclick="hideNodeNote('n3');"><i class="fa fa-times"></i></button>
+ 	</div>
+
+
+<!-- NODE 4: Samarbeid industri/vitenskap -->
+	
+	<div class="n4 node nodePlaceholder">
+
+		<div id='l4' class='link l4 link-h right'>
 			<div class="link-note">
 				<h2 id='l4title'></h2>
 				<h3 id='l4subtitle'></h3>
@@ -205,20 +223,19 @@
 
 	</div>
 
-	<div id='n3' class='node n3' onclick="showNodeNote('n3');" style="background-image: url(img/04_03_Riksvapenet_0.jpg);">
-		<button class="edit"  onclick="showNodeNote('n3');"><i class="fa fa-pencil"></i></button>
-		<h2 id='n3title'>Effektivisering i jordbruket</h2>
-		<h3 id='n3subtitle'>Effektivisering i jordbruket</h3>
-		<div id='n3url'>url</div>
-		<textarea placeholder="Skriv ditt notat her..." id='n3n'></textarea>
-		<button class="close"  onclick="hideNodeNote('n3');"><i class="fa fa-times"></i></button>
-		<button class="close" onclick="hideNodeNote('n3');"><i class="fa fa-times"></i></button>
- 	</div>
+	<div id='n4' class='node n4' onclick="showNodeNote('n4');" style="background-image: url(img/04_04_valgurne.jpg);">
+		<button class="edit" onclick="showNodeNote('n4');"><i class="fa fa-pencil"></i></button>
+		<h2 id='n4title'>Samarbeid industri/vitenskap</h2>
+		<h3 id='n4subtitle'>Samarbeid industri/vitenskap</h3>
+		<div id='n4url' class="nodurl">url</div>
+		<textarea placeholder="Skriv ditt notat her..." id='n4n'></textarea>
+		<button class="close" onclick="hideNodeNote('n4');"><i class="fa fa-times"></i></button>
+	</div>
 
 
-<!-- NODE 4: Befolkningsvekst -->
+<!-- NODE 5: Økonomisk liberalisme -->
 	
-	<div class="n4 node nodePlaceholder">
+	<div class="n5 node nodePlaceholder">
 
 		<div id='l5' class='link l5 link-h right'>
 			<div class="link-note">	
@@ -233,79 +250,26 @@
 
 	</div>
 
-	<div id='n4' class='node n4' onclick="showNodeNote('n4');" style="background-image: url(img/04_04_valgurne.jpg);">
-		<button class="edit" onclick="showNodeNote('n4');"><i class="fa fa-pencil"></i></button>
-		<h2 id='n4title'>Befolkningsvekst</h2>
-		<h3 id='n4subtitle'>Befolkningsvekst</h3>
-		<div id='n4url' class="nodurl">url</div>
-		<textarea placeholder="Skriv ditt notat her..." id='n4n'></textarea>
-		<button class="close" onclick="hideNodeNote('n4');"><i class="fa fa-times"></i></button>
-	</div>
-
-
-<!-- NODE 5: Merkantilisme og kolonialisme -->
-	
-	<div class="n5 node nodePlaceholder">
-
-		<div id='l6' class='link l6 link-h right'>
-			<div class="link-note">
-				<h2 id='l6title'></h2>
-				<h3 id='l6subtitle'></h3>
-				<div id='l6url' class="node-url">url</div>
-				<button class="edit" onclick="showLinkNote('l6');"><i class="fa fa-pencil"></i></button>
-				<textarea placeholder="Skriv ditt notat her..." id='l6n'></textarea>
-				<button class="close" onclick="hideLinkNote('l6');"><i class="fa fa-times"></i></button>
-			</div>
-		</div>
-
-	</div>
-
 	<div id='n5' class='node n5' onclick="showNodeNote('n5');" style="background-image: url(img/04_05_022sAXqs72P5_copy.jpg);">
 		<button class="edit" onclick="showNodeNote('n5');"><i class="fa fa-pencil"></i></button>
-		<h2 id='n5title'>Merkantilisme og kolonialisme</h2>
-		<h3 id='n5subtitle'>Merkantilisme og kolonialisme</h3>
+		<h2 id='n5title'>Økonomisk liberalisme</h2>
+		<h3 id='n5subtitle'>Økonomisk liberalisme</h3>
 		<div id='n5url'>url</div>
 		<textarea placeholder="Skriv ditt notat her..." id='n5n'></textarea>
 		<button class="close" onclick="hideNodeNote('n5');"><i class="fa fa-times"></i></button>
 	</div>
 
-<!-- NODE 6: Teknologiske nyvinninger  -->
+<!-- NODE 6: Den andre industrielle revolusjon  -->
 	
-	<div class="n6 node nodePlaceholder">
-	
-		<div id='l7' class='link l7 link-h right'>
-			<div class="link-note">
-				<h2 id='l7title'></h2>
-				<h3 id='l7subtitle'></h3>
-				<div id='l7url' class="node-url">url</div>
-				<button class="edit" onclick="showLinkNote('l7');"><i class="fa fa-pencil"></i></button>
-				<textarea placeholder="Skriv ditt notat her..." id='l7n'></textarea>
-				<button class="close" onclick="hideLinkNote('l7');"><i class="fa fa-times"></i></button>
-			</div>
-		</div>
-
-	</div>
+	<div class="n6 node nodePlaceholder"></div>
 
 	<div id='n6' class='node n6' onclick="showNodeNote('n6');" style="background-image: url(img/04_06_spec5cb9.jpg);">
 		<button class="edit" onclick="showNodeNote('n6');"><i class="fa fa-pencil"></i></button>		
-		<h2 id='n6title'>Teknologiske nyvinninger</h2>
-		<h3 id='n6subtitle'>Teknologiske nyvinninger</h3>
+		<h2 id='n6title'>Den andre industrielle revolusjon</h2>
+		<h3 id='n6subtitle'>Den andre industrielle revolusjon</h3>
 		<div id='n6url'>url</div>
 		<textarea placeholder="Skriv ditt notat her..." id='n6n'></textarea>
 		<button class="close" onclick="hideNodeNote('n6');"><i class="fa fa-times"></i></button>
-	</div>
-
-<!-- NODE 7: Den første industrielle revolusjon -->
-
-	<div class="n7 node nodePlaceholder"></div>
-
-	<div id='n7' class='node n7' onclick="showNodeNote('n7');" style="background-image: url(img/04_07_Wilhelm_Peters_Fra_Hjula_Veveri.jpg);">
-		<button class="edit"  onclick="showNodeNote('n7');"><i class="fa fa-pencil"></i></button>
-		<h2 id='n7title'>Den første industrielle revolusjon</h2>
-		<h3 id='n7subtitle'>Den første industrielle revolusjon</h3>
-		<div id='n7url'>url</div>
-		<textarea placeholder="Skriv ditt notat her..." id='n7n'></textarea>
-		<button class="close" onclick="hideNodeNote('n7');"><i class="fa fa-times"></i></button>
 	</div>
 
 
@@ -338,21 +302,18 @@
 
 <script src="NDLAHistoryMindMap.js"></script>
 <script>
-	NDLAHistoryMindMap.init("IndRev1","Den første industrielle revolusjon");
-	var n1 = NDLAHistoryMindMap.createNode("Forlagssystemet", "Foto:  / NTB Scanpix", "", "n1");
-	var n2 = NDLAHistoryMindMap.createNode("Kull og jern", "Foto:  / NTB Scanpix","","n2");
-	var n3 = NDLAHistoryMindMap.createNode("Effektivisering i jordbruket", "Foto:  / NTB Scanpix","","n3");
-	var n4 = NDLAHistoryMindMap.createNode("Befolkningsvekst", "Foto: NTB Scanpix","","n4");
-	var n5 = NDLAHistoryMindMap.createNode("Merkantilisme og kolonialisme", "Foto:  / NTB Scanpix","","n5");
-	var n6 = NDLAHistoryMindMap.createNode("Teknologiske nyvinninger", "Foto:  / NTB Scanpix","","n6");
-	var n7 = NDLAHistoryMindMap.createNode("Den første industrielle revolusjon", "Foto:  / NTB Scanpix","","n7");
-	var l1 = NDLAHistoryMindMap.createLink(n1,n7, false, "", "", "l1");
+	NDLAHistoryMindMap.init("IndRev2","Den andre industrielle revolusjon");
+	var n1 = NDLAHistoryMindMap.createNode("Befolkningsutvikling og utvandring", "Foto:  / NTB Scanpix", "", "n1");
+	var n2 = NDLAHistoryMindMap.createNode("Nye energikilder", "Foto:  / NTB Scanpix","","n2");
+	var n3 = NDLAHistoryMindMap.createNode("Stål", "Foto:  / NTB Scanpix","","n3");
+	var n4 = NDLAHistoryMindMap.createNode("Samarbeid industri/vitenskap", "Foto: NTB Scanpix","","n4");
+	var n5 = NDLAHistoryMindMap.createNode("Økonomisk liberalisme", "Foto:  / NTB Scanpix","","n5");
+	var n6 = NDLAHistoryMindMap.createNode("Den andre industrielle revolusjon", "Foto:  / NTB Scanpix","","n6");
+	var l1 = NDLAHistoryMindMap.createLink(n1,n6, false, "", "", "l1");
 	var l2 = NDLAHistoryMindMap.createLink(n2,n6, false, "", "", "l2");
-	var l3 = NDLAHistoryMindMap.createLink(n3,n7, false, "", "", "l3");
-	var l4 = NDLAHistoryMindMap.createLink(n3,n4, false, "", "", "l4");
-	var l5 = NDLAHistoryMindMap.createLink(n4,n7, false, "", "", "l5");
-	var l6 = NDLAHistoryMindMap.createLink(n5,n7, false, "", "", "l6");
-	var l7 = NDLAHistoryMindMap.createLink(n6,n7, false, "", "", "l7");
+	var l3 = NDLAHistoryMindMap.createLink(n3,n6, false, "", "", "l3");
+	var l4 = NDLAHistoryMindMap.createLink(n4,n6, false, "", "", "l4");
+	var l5 = NDLAHistoryMindMap.createLink(n5,n6, false, "", "", "l5");
 	NDLAHistoryMindMap.updateNodes();
 	NDLAHistoryMindMap.updateLinks();
 	</script>

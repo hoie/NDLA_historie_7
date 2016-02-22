@@ -101,13 +101,16 @@ button {
 
 
 
+.link-h {
+	width: 147%;
+}
+
 
 .n1 {
 	left: $col-1;
 	top: 10%;
 	
 	.l1 {
-		width: 230%;
 	}
 }
 
@@ -122,13 +125,8 @@ button {
 .n3 {
 	left: $col-1;
 	top: $col-height * 2 + 10%;
-	height: 11%;
 	
 	.l3 {
-		width: 230%;
-	}
-	.l4 {
-		height: 55%;
 	}
 }
 
@@ -136,8 +134,7 @@ button {
 	left: $col-1;
 	top: $col-height * 3 + 10%;
 	
-	.l5 {
-		width: 230%;
+	.l4 {
 	}
 }
 
@@ -145,23 +142,15 @@ button {
 	left: $col-1;
 	top: $col-height * 4 + 10%;
 
-	.l6 {
-		width: 230%;
+	.l5 {
 	}
 }
 
 .n6 {
 	left: $col-2;
-	top: $col-height + 10%;
-	
-	.l7 {
-	}
-
-}
-.n7 {
-	left: $col-3;
 	top: 10%;
-	height: 82%;
+	height: $col-height * 4 + $node-height;
+
 }
 
 
